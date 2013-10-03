@@ -6,6 +6,41 @@ $(function()
 
 function initEvents()
 {
+   $("#btngetmore").hover(function() {
+		
+		$(this).css("text-decoration","underline");
+	}, function() {
+		
+		$(this).css("text-decoration","none");
+	});
+    $(".btomtitle").hover(function() {
+		
+		$(this).css("text-decoration","underline");
+	}, function() {
+		
+		$(this).css("text-decoration","none");
+	});
+   $(".divtitle2").hover(function() {
+		
+		$(this).css("text-decoration","underline");
+	}, function() {
+		
+		$(this).css("text-decoration","none");
+	});
+	$("a").hover(function() {
+		
+		$(this).css("text-decoration","underline");
+	}, function() {
+		
+		$(this).css("text-decoration","none");
+	});
+	$(".divtitle").hover(function() {
+		
+		$(this).css("text-decoration","underline");
+	}, function() {
+		
+		$(this).css("text-decoration","none");
+	});
 	$("#topamai").hover(function() {
 		$(this).find("#Dropdown").show();
 		$(this).css("border-top","1px solid #ccc");
@@ -67,6 +102,7 @@ function initEvents()
 		{
 			$("#hdpimg").attr("src","css/images/1378868586化繁而简-0828.jpg");
 		}
+
 		
 	
 		
